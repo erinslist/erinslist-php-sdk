@@ -1,0 +1,23 @@
+{
+    "name": "erinslist/erinslist-php-sdk",
+    "description": "PHP SDK for erinslist.us API",
+    "homepage": "https://github.com/erinslist/erinslist-php-sdk",
+    "license": "MIT",
+    "keywords": [
+        "php", "class", "erinslist", "erinslist.us", "address", "danger"
+    ],
+    "authors": [
+        {
+            "name": "Jovanni Lo",
+            "email": "lodev09@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Erinslist\\": "src/"
+        }
+    }
+}
