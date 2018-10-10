@@ -10,7 +10,6 @@ $ composer require erinslist/erinslist-php-sdk
 
 ## Usage
 ```php
-
 const ERL_API_KEY = 'YOUR_ERL_API_KEY';
 const ERL_API_SECRET = 'YOUR_ERL_SECRET_KEY';
 
