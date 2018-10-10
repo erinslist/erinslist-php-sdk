@@ -13,7 +13,9 @@
         }
     ],
     "require": {
-        "php": ">=5.4"
+        "php": ">=5.4",
+        "php-curl-class/php-curl-class": "*",
+        "lodev09/php-util": "*"
     },
     "autoload": {
         "psr-4": {
