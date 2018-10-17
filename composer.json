@@ -4,7 +4,7 @@
     "homepage": "https://github.com/erinslist/erinslist-php-sdk",
     "license": "MIT",
     "keywords": [
-        "php", "class", "erinslist", "erinslist.us", "address", "danger"
+        "php", "class", "erinslist", "erinslist.us", "address", "danger","ezcompany"
     ],
     "authors": [
         {
