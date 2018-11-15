@@ -17,20 +17,9 @@ class Erinslist {
         $this->_curl->setHeader('Content-Type', 'application/json');
     }
 
-    private static function _format_address_data($address) {
-        $data = [];
-
-        if (is_string($address)) {
-            $data['address'] = $address;
-        } else {
-            $position = is_array($address) ? new Position($address[0], $address[1]) : $address;
-            if (!$position instanceof Position) {
-                throw new Exception('Data is not a valid position');
-                return false;
-            }
-
-            $data['lat'] = $position->lat;
-            $data['lng'] = $position->lng;
+    private static function _format_address_data($data) {
+        if (is_string($data)) {
+            $data = ['address' => $data];
         }
 
         return $data;
